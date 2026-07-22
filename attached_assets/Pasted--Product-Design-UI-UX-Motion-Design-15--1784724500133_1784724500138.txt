@@ -1,0 +1,481 @@
+أنت خبير عالمي في Product Design وUI/UX وMotion Design، ولديك خبرة تزيد عن 15 عاماً في تصميم تطبيقات النقل الذكي مثل DiDi وAmap وGaode Maps وMeituan وGrab وUber وCareem وBolt.
+
+مهمتك هي تصميم تجربة استخدام كاملة لتطبيق Ride Hailing حديث يركز على جعل التطبيق يبدو "حيًا" أثناء الاستخدام، بحيث تكون الحركة والانتقالات جزءاً أساسياً من التجربة، وليس مجرد تطبيق يعرض خريطة وسيارة.
+
+لا تكتفِ بتصميم الشاشات، بل صمم المنتج بالكامل كما لو كنت تقود فريق التصميم في شركة عالمية.
+
+# الهدف
+
+تصميم Product Design كامل يشمل:
+
+- User Experience (UX)
+- User Interface (UI)
+- Motion Design
+- Micro Interactions
+- Map Experience
+- Design System
+- Animation Guidelines
+- Developer Handoff
+
+يجب أن تكون النتيجة النهائية جاهزة للتنفيذ بواسطة فريق تطوير Flutter أو Android أو iOS.
+
+# فلسفة التصميم
+
+استلهم أفضل الممارسات من:
+
+- DiDi
+- Amap
+- Gaode Maps
+- Meituan
+- Grab
+- Uber
+- Careem
+- Bolt
+
+لكن لا تنسخ أي تصميم.
+
+يجب أن يبدو التطبيق حديثاً، سريعاً، حياً، غنياً بالحركة، ويعطي انطباعاً Premium.
+
+# الجمهور المستهدف
+
+المستخدم يريد:
+
+- طلب سيارة خلال أقل من 10 ثوانٍ.
+- معرفة مكان السائق مباشرة.
+- الشعور بالثقة طوال الرحلة.
+- تجربة ممتعة وسلسة.
+
+# المطلوب
+
+## أولاً: دراسة المنافسين
+
+قم بتحليل شامل لكل من:
+
+- Uber
+- Careem
+- Grab
+- Bolt
+- DiDi
+- Amap
+- Gaode Maps
+- Meituan
+
+لكل تطبيق اشرح:
+
+- نقاط القوة
+- نقاط الضعف
+- تجربة المستخدم
+- تجربة الخريطة
+- Motion Design
+- Micro Interactions
+- رحلة المستخدم
+- الأفكار التي يمكن تطويرها
+
+ثم اقترح أفضل تصميم يجمع مميزات الجميع.
+
+---
+
+# ثانياً: تصميم رحلة المستخدم
+
+قم بتصميم User Journey كاملة لكل من:
+
+Passenger
+
+Driver
+
+Admin
+
+واشرح جميع السيناريوهات.
+
+---
+
+# ثالثاً: Information Architecture
+
+أنشئ Information Architecture احترافية.
+
+---
+
+# رابعاً: User Flow
+
+أنشئ User Flow كاملة لجميع العمليات.
+
+---
+
+# خامساً: Passenger App
+
+صمم جميع الشاشات بالتفصيل:
+
+- Splash
+- Onboarding
+- Login
+- Register
+- Permissions
+- Home
+- Live Map
+- Search Destination
+- Recent Places
+- Favorites
+- Vehicle Selection
+- Fare Estimate
+- Promo Code
+- Payment
+- Searching Driver
+- Driver Accepted
+- Driver Arriving
+- Driver Waiting
+- Trip Started
+- Trip Progress
+- Trip Finished
+- Rating
+- Receipt
+- Wallet
+- Notifications
+- Profile
+- Support
+- Settings
+- Emergency
+- Trip History
+
+لكل شاشة:
+
+- الهدف
+- Layout
+- Components
+- الحالات المختلفة
+- Animation
+- Micro Interactions
+
+---
+
+# سادساً: Driver App
+
+صمم:
+
+- Dashboard
+- Online
+- Offline
+- Incoming Trip
+- Accept
+- Reject
+- Navigation
+- Pickup
+- Waiting
+- Start Trip
+- Trip Progress
+- Finish Trip
+- Earnings
+- Wallet
+- Ratings
+- Schedule
+- Support
+
+---
+
+# سابعاً: Admin Dashboard
+
+صمم لوحة تحكم كاملة تشمل:
+
+- Live Trips
+- Drivers
+- Passengers
+- Vehicles
+- Analytics
+- Reports
+- Payments
+- Coupons
+- Notifications
+- Heat Maps
+- Live Tracking
+- Customer Support
+- Fraud Detection
+- Settings
+
+---
+
+# ثامناً: تجربة الخريطة
+
+صمم تجربة Map UI كاملة.
+
+اشرح:
+
+- Camera Behavior
+- Auto Zoom
+- Follow Driver
+- Smart Center
+- Rotation
+- Tilt
+- Day Mode
+- Night Mode
+- Buildings
+- Traffic
+- Dynamic Labels
+- ETA Bubble
+- Alternative Routes
+- Surge Areas
+- POI
+
+---
+
+# تاسعاً: عناصر الخريطة
+
+صمم:
+
+- Passenger Marker
+- Driver Marker
+- Pickup Marker
+- Dropoff Marker
+- Nearby Drivers
+- Moving Cars
+- Selected Car
+- Route
+- Current Location
+- ETA
+- Destination
+
+---
+
+# عاشراً: تصميم السيارة
+
+صمم سيارة حديثة:
+
+- Stylized
+- أو 3D
+
+واشرح:
+
+- Idle Animation
+- Moving
+- Turning
+- Accelerating
+- Braking
+- Arriving
+- Leaving
+- Shadow
+- Reflection
+- Lighting
+
+---
+
+# الحادي عشر: Motion Design
+
+قم بتصميم جميع الحركات:
+
+- Searching Driver
+- Driver Accepted
+- Driver Arriving
+- Pickup
+- Waiting
+- Trip Started
+- Trip Finished
+- Payment Success
+- Payment Failed
+- Cancel Ride
+- Notifications
+- Loading
+- Empty States
+- Errors
+
+---
+
+# الثاني عشر: Micro Interactions
+
+صمم جميع التفاعلات الصغيرة:
+
+- Button Press
+- Long Press
+- Drag
+- Swipe
+- Pull Sheet
+- Expand Card
+- Collapse Card
+- Map Zoom
+- Vehicle Selection
+- Payment Selection
+- Search
+- Typing
+- Location Update
+- Refresh
+- Success
+- Error
+
+---
+
+# الثالث عشر: Bottom Sheets
+
+صمم جميع الحالات:
+
+- Collapsed
+- Half Expanded
+- Fully Expanded
+- Drag
+- Elastic
+- Snap
+- Spring Physics
+
+---
+
+# الرابع عشر: Transition System
+
+اشرح انتقالات:
+
+- Page Transition
+- Map Transition
+- Hero Animation
+- Shared Elements
+- Cards
+- Bottom Sheets
+- Fade
+- Scale
+- Slide
+- Morph
+
+---
+
+# الخامس عشر: Animation Specifications
+
+حدد لكل حركة:
+
+- Duration
+- Delay
+- Curve
+- Physics
+- Opacity
+- Scale
+- Rotation
+- Elevation
+
+---
+
+# السادس عشر: Lottie
+
+حدد العناصر المناسبة لـ Lottie.
+
+---
+
+# السابع عشر: Rive
+
+حدد العناصر المناسبة لـ Rive مثل:
+
+- Interactive Buttons
+- Live Vehicle
+- Animated Driver
+- Loading
+- Success
+- Error
+- Waiting State
+
+---
+
+# الثامن عشر: Design System
+
+أنشئ نظام تصميم متكامل يشمل:
+
+- Color System
+- Typography
+- Grid
+- Spacing
+- Radius
+- Elevation
+- Shadows
+- Icons
+- Illustrations
+- Buttons
+- Inputs
+- Cards
+- Bottom Navigation
+- Navigation Bar
+- Chips
+- Badges
+- Dialogs
+- Snackbars
+- Toast
+- Components
+- Variants
+- Tokens
+
+---
+
+# التاسع عشر: Accessibility
+
+صمم وفق:
+
+- WCAG
+- Screen Readers
+- Large Text
+- Contrast
+- Color Blind Support
+- Motion Reduction
+- Touch Targets
+
+---
+
+# العشرون: Responsive Design
+
+اشرح كيف يعمل التصميم على:
+
+- Android
+- iPhone
+- Tablets
+- Foldables
+
+---
+
+# الحادي والعشرون: Developer Handoff
+
+أنشئ مواصفات جاهزة للمطور تشمل:
+
+- Auto Layout
+- Constraints
+- Assets
+- SVG
+- Lottie
+- Rive
+- Naming Convention
+- Component Structure
+- Tokens
+- Animation Specs
+- Spacing
+- Padding
+
+---
+
+# الثاني والعشرون: أفكار مبتكرة
+
+اقترح أفكاراً تجعل التطبيق يبدو أكثر حيوية، مثل:
+
+- سيارات تتحرك بشكل طبيعي في الخلفية.
+- سرعة السيارات تتغير حسب حالة المرور.
+- ظلال وإضاءة ديناميكية.
+- حركة سلسة عند اقتراب السائق.
+- تأثيرات نجاح الدفع.
+- Haptic Feedback.
+- مؤثرات صوتية خفيفة.
+- تأثيرات الطقس (ليل، نهار، مطر).
+- رسوم متحركة متوافقة مع 60–120 FPS.
+
+---
+
+# المخرجات المطلوبة
+
+أنتج وثيقة احترافية تتضمن:
+
+1. تحليل المنافسين.
+2. دراسة UX.
+3. User Personas.
+4. User Journey.
+5. Information Architecture.
+6. User Flows.
+7. Wireframes.
+8. High-Fidelity UI.
+9. Design System.
+10. Motion Design Guidelines.
+11. Micro Interaction Library.
+12. Lottie Specifications.
+13. Rive Specifications.
+14. Animation Guidelines.
+15. Map Experience Guidelines.
+16. Accessibility Guidelines.
+17. Responsive Guidelines.
+18. Developer Handoff.
+
+يجب أن يكون الناتج النهائي بمستوى شركات عالمية مثل Uber وDiDi وGrab، مع التركيز على الأداء العالي، سهولة الاستخدام، جودة الحركة، وقابلية التنفيذ الفعلية من قبل فريق التطوير.
