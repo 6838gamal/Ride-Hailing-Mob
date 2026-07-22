@@ -1,5 +1,5 @@
 [build]
-  command= "flutter build web"
+  command= "flutter build web --wasm"
   base    = "."
   publish = "build/web"
 
