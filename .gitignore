@@ -23,7 +23,6 @@ build/
 **/ios/Runner.xcworkspace/xcshareddata/
 
 # Web
-lib/generated_plugin_registrant.dart
 
 # macOS
 **/macos/Flutter/GeneratedPluginRegistrant.swift

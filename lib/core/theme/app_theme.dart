@@ -108,7 +108,7 @@ class AppTheme {
           hintStyle: AppTypography.bodyMedium.copyWith(color: AppColors.grey500),
           labelStyle: AppTypography.bodyMedium,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: AppColors.surface,
           elevation: 0,
           shape: RoundedRectangleBorder(
@@ -257,7 +257,7 @@ class AppTheme {
           hintStyle: AppTypography.bodyMedium.copyWith(color: AppColors.grey700),
           labelStyle: AppTypography.bodyMedium.copyWith(color: AppColors.grey400),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: AppColors.darkCard,
           elevation: 0,
           shape: RoundedRectangleBorder(

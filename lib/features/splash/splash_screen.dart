@@ -93,7 +93,7 @@ class _SplashScreenState extends State<SplashScreen>
                 color: AppColors.primary.withOpacity(0.12),
               ),
             )
-                .animate(controller: _bgController.view)
+                .animate(controller: _bgController)
                 .scale(begin: const Offset(0, 0), end: const Offset(1, 1))
                 .fade(),
           ),
@@ -108,7 +108,7 @@ class _SplashScreenState extends State<SplashScreen>
                 color: AppColors.accent.withOpacity(0.08),
               ),
             )
-                .animate(controller: _bgController.view)
+                .animate(controller: _bgController)
                 .scale(begin: const Offset(0, 0), end: const Offset(1, 1))
                 .fade(delay: 200.ms),
           ),
