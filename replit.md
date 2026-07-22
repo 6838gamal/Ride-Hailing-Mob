@@ -54,27 +54,24 @@ docs/
   design_document.md  # Full bilingual (AR/EN) product design spec
 ```
 
-## Running the App
+## Running the App on Replit
 
-Flutter is **not installed** in this Replit environment. To run:
+Flutter 3.32.0 is installed via Nix. The workflow builds Flutter Web (profile mode) and serves it on port 5000.
 
-### Option A — Run locally
+```bash
+# Workflow command (already configured):
+flutter build web --profile && python3 -m http.server 5000 --bind 0.0.0.0 --directory build/web
+```
+
+**Why `--profile` not `--release`?** Flutter 3.32 / Dart 3.8 has a dart2js compiler crash with `flutter_animate` (`Bad state: Non-constant annotation on ImplicitlyAnimatedWidgetState`). Profile mode uses DDC instead of dart2js and avoids the crash.
+
+### Run locally
 ```bash
 flutter pub get
 flutter run                    # Android/iOS emulator
-flutter run -d chrome          # Web browser
-```
-
-### Option B — Run on Replit (Flutter Web)
-```bash
-# Install Flutter SDK manually or use a custom Nix derivation
-flutter run -d web-server --web-hostname 0.0.0.0 --web-port 5000
-```
-
-### Option C — Build APK
-```bash
-flutter pub get
-flutter build apk --release
+flutter run -d chrome          # Web browser (debug)
+flutter build web --profile    # Web (profile — same as Replit)
+flutter build apk --release    # APK
 ```
 
 ## Key Design Decisions
