@@ -1,0 +1,1 @@
+- [Flutter Ride Hailing App](flutter-ride-hailing.md) — Design system + all screens built; Flutter not installed on Replit (no module); uses flutter_map+OSM (no API key needed).
