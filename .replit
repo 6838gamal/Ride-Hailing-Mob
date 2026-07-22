@@ -1,4 +1,4 @@
-modules = ["web", "swift-5.8", "bash", "dart-3.10"]
+modules = ["web", "swift-5.8", "bash"]
 
 [nix]
 channel = "stable-25_05"
